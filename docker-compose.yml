@@ -10,7 +10,7 @@ services:
       - redis
 
   redis:
-    image: redis
+    image: redis:7.2.1
 
   nginx:
     image: nginx:1.25.2
