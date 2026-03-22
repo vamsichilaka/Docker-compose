@@ -12,7 +12,7 @@ class Handler(BaseHTTPRequestHandler):
         count = r.incr("visits")
 
         message = f"""
-        Hi Vamsii"Triggered via github actions"
+        Hi Vamsi"Triggered via github actions"
         Request Flow:
 
         Browser → Nginx → App → Redis
